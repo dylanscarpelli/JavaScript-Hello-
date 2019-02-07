@@ -1,0 +1,23 @@
+ctrl+k+c comment
+ctrl+k+u uncomment
+
+let is block scope
+var is func scope
+
+How is SRC folder created? 
+JSON file about start
+
+decimals
+e.g 4.1 + 3.6
+//////////////////////////////
+to run code:
+npm run start
+
+to create new proj:
+git init
+npm init
+
+git add . 
+git status
+git commit -m "..." 
+git push -u origin master
