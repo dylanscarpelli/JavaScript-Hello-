@@ -21,3 +21,27 @@ git add .
 git status
 git commit -m "..." 
 git push -u origin master
+
+
+
+/////
+False
+/////
+
+False
+0
+""
+null
+undefined
+NaN
+
+
+///////
+Truth
+///////
+
+everything not false
+
+
+npm config get proxy
+

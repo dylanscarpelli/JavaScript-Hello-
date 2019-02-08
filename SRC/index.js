@@ -60,6 +60,28 @@ if ( state!== 'CA')
     console.log("State is not California");
 }
 
+state = 'TX';
+
+
+switch(state)
+{
+    case('TX'):
+        console.log("state is Texas");
+        console.log("Austin");
+        break; // if break statement is not here code will fall through to next statement
+    default:
+        console.log('uknown');
+         break;
+    
+}
+
+function triplePLus(value)
+{
+    let newValue = value + value + value;
+    return newValue;
+}
+console.log(triplePLus(5) + " this is the result of triplePlus");
+
 
 
 
@@ -84,3 +106,37 @@ function spaghettiMy() {
 
 spaghettiMy();
 
+let persons = [ 
+{ 
+    name: "John",
+    age: 32,
+    partTime: false
+},
+
+{
+    name:"Henry",
+    ability: "nah",
+    age:69,
+    partTime: true
+}
+];
+
+console.log(persons.name); //john
+console.log(persons.age); //32
+console.log(persons.partTime); //false
+
+function changePerson(persons)
+{
+    persons.age = 60 ;
+}
+
+changePerson(persons);
+console.log(persons.age);
+console.log( persons[0].name, persons[1].ability );
+
+let result = Math.random() *52;
+result = Math.trunc ( result);
+
+let dateResult = new Date().toDateString();
+console.log( dateResult );
+console.log( result ) ;
